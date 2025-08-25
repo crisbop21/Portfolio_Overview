@@ -673,6 +673,6 @@ st.markdown("""
 You can upload CSV/XLSX with columns: `asset_type, symbol, quantity, price, beta_override, expiry, strike, cp, iv, div_yield`.
 The app also maps common IBKR headers. In particular, a column named `Last` or `last` will be used as `price` automatically, values like `C19.50` are cleaned to numeric. If a `Position` column is present, it will be used as `quantity`.
 For options, the `instrument` name can also be parsed if it contains something like `AAPL 17JAN2026 150 C` or IBKR mobile style like `SEP 18 '26 400 Call`.
-
+""")
 
 st.caption("© 2025 Prototype. Educational use only, not investment advice.")
