@@ -1,0 +1,7 @@
+streamlit>=1.36
+pandas>=2.2
+numpy>=1.26
+matplotlib>=3.8
+pillow>=10.3
+yfinance>=0.2.40
+pytesseract>=0.3.10
